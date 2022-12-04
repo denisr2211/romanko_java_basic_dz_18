@@ -2,7 +2,6 @@ import junit.framework.Assert;
 import junit.framework.TestCase;
 
 public class MatrixTest extends TestCase {
-
     public void testCountAverageElementsOfIntegerArray() {
         {
             try {
@@ -27,7 +26,6 @@ public class MatrixTest extends TestCase {
                 boolean actualResult = Matrix.checkIfMatrixIsSquare(tmp);
                 Assert.assertEquals(expectedResult, actualResult);
                 System.out.println("1 testCheckIfMatrixIsSquare - passed successful");
-
             } finally {
                 System.out.println("1 testCheckIfMatrixIsSquare - finished");
             }
@@ -40,7 +38,6 @@ public class MatrixTest extends TestCase {
                 boolean actualResult = Matrix.checkIfMatrixIsSquare(tmp);
                 Assert.assertEquals(expectedResult, actualResult);
                 System.out.println("2 testCheckIfMatrixIsSquare - passed successful");
-
             } finally {
                 System.out.println("2 testCheckIfMatrixIsSquare - finished");
             }
