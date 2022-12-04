@@ -30,7 +30,6 @@ public class MatrixTest extends TestCase {
 
             } finally {
                 System.out.println("1 testCheckIfMatrixIsSquare - finished");
-                System.out.println();
             }
         }
         {
@@ -44,7 +43,6 @@ public class MatrixTest extends TestCase {
 
             } finally {
                 System.out.println("2 testCheckIfMatrixIsSquare - finished");
-                System.out.println();
             }
         }
     }
